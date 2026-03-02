@@ -1,0 +1,294 @@
+age,sex,cp,trestbps,chol,fbs,restecg,thalch,exang,oldpeak,slope,ca,thal,num
+29,Male,atypical angina,120.0,243.0,False,normal,160.0,False,0.0,,0.0,,0
+29,Male,atypical angina,140.0,223.0,False,normal,170.0,False,0.0,,0.0,,0
+30,Female,typical angina,170.0,237.0,False,st-t abnormality,170.0,False,0.0,,0.0,fixed defect,0
+31,Female,atypical angina,100.0,219.0,False,st-t abnormality,150.0,False,0.0,,0.0,,0
+32,Female,atypical angina,105.0,198.0,False,normal,165.0,False,0.0,,0.0,,0
+32,Male,atypical angina,110.0,225.0,False,normal,184.0,False,0.0,,0.0,,0
+32,Male,atypical angina,125.0,254.0,False,normal,155.0,False,0.0,,0.0,,0
+33,Male,non-anginal,120.0,298.0,False,normal,185.0,False,0.0,,0.0,,0
+34,Female,atypical angina,130.0,161.0,False,normal,190.0,False,0.0,,0.0,,0
+34,Male,atypical angina,150.0,214.0,False,st-t abnormality,168.0,False,0.0,,0.0,,0
+34,Male,atypical angina,98.0,220.0,False,normal,150.0,False,0.0,,0.0,,0
+35,Female,typical angina,120.0,160.0,False,st-t abnormality,185.0,False,0.0,,0.0,,0
+35,Female,asymptomatic,140.0,167.0,False,normal,150.0,False,0.0,,0.0,,0
+35,Male,atypical angina,120.0,308.0,False,lv hypertrophy,180.0,False,0.0,,0.0,,0
+35,Male,atypical angina,150.0,264.0,False,normal,168.0,False,0.0,,0.0,,0
+36,Male,atypical angina,120.0,166.0,False,normal,180.0,False,0.0,,0.0,,0
+36,Male,non-anginal,112.0,340.0,False,normal,184.0,False,1.0,flat,0.0,normal,0
+36,Male,non-anginal,130.0,209.0,False,normal,178.0,False,0.0,,0.0,,0
+36,Male,non-anginal,150.0,160.0,False,normal,172.0,False,0.0,,0.0,,0
+37,Female,atypical angina,120.0,260.0,False,normal,130.0,False,0.0,,0.0,,0
+37,Female,non-anginal,130.0,211.0,False,normal,142.0,False,0.0,,0.0,,0
+37,Female,asymptomatic,130.0,173.0,False,st-t abnormality,184.0,False,0.0,,0.0,,0
+37,Male,atypical angina,130.0,283.0,False,st-t abnormality,98.0,False,0.0,,0.0,,0
+37,Male,non-anginal,130.0,194.0,False,normal,150.0,False,0.0,,0.0,,0
+37,Male,asymptomatic,120.0,223.0,False,normal,168.0,False,0.0,,0.0,normal,0
+37,Male,asymptomatic,130.0,315.0,False,normal,158.0,False,0.0,,0.0,,0
+38,Female,atypical angina,120.0,275.0,,normal,129.0,False,0.0,,0.0,,0
+38,Male,atypical angina,140.0,297.0,False,normal,150.0,False,0.0,,0.0,,0
+38,Male,non-anginal,145.0,292.0,False,normal,130.0,False,0.0,,0.0,,0
+39,Female,non-anginal,110.0,182.0,False,st-t abnormality,180.0,False,0.0,,0.0,,0
+39,Male,atypical angina,120.0,223.0,False,st-t abnormality,146.0,False,2.0,upsloping,0.0,,0
+39,Male,atypical angina,120.0,200.0,False,normal,160.0,True,1.0,flat,0.0,,0
+39,Male,atypical angina,120.0,204.0,False,normal,145.0,False,0.0,,0.0,,0
+39,Male,atypical angina,130.0,223.0,False,normal,120.0,False,0.0,,0.0,,0
+39,Male,atypical angina,190.0,241.0,False,normal,106.0,False,0.0,,0.0,,0
+39,Male,non-anginal,120.0,339.0,False,normal,170.0,False,0.0,,0.0,,0
+39,Male,non-anginal,160.0,147.0,True,normal,160.0,False,0.0,,0.0,,0
+39,Male,asymptomatic,110.0,273.0,False,normal,132.0,False,0.0,,0.0,,0
+39,Male,asymptomatic,130.0,307.0,False,normal,140.0,False,0.0,,0.0,,0
+40,Male,atypical angina,130.0,275.0,False,normal,150.0,False,0.0,,0.0,,0
+40,Male,atypical angina,140.0,289.0,False,normal,172.0,False,0.0,,0.0,,0
+40,Male,non-anginal,130.0,215.0,False,normal,138.0,False,0.0,,0.0,,0
+40,Male,non-anginal,130.0,281.0,False,normal,167.0,False,0.0,,0.0,,0
+40,Male,non-anginal,140.0,223.0,False,normal,188.0,False,0.0,,0.0,,0
+41,Female,atypical angina,110.0,250.0,False,st-t abnormality,142.0,False,0.0,,0.0,,0
+41,Female,atypical angina,125.0,184.0,False,normal,180.0,False,0.0,,0.0,,0
+41,Female,atypical angina,130.0,245.0,False,normal,150.0,False,0.0,,0.0,,0
+41,Male,atypical angina,120.0,291.0,False,st-t abnormality,160.0,False,0.0,,0.0,,0
+41,Male,atypical angina,120.0,295.0,False,normal,170.0,False,0.0,,0.0,,0
+41,Male,atypical angina,125.0,269.0,False,normal,144.0,False,0.0,,0.0,,0
+41,Male,asymptomatic,112.0,250.0,False,normal,142.0,False,0.0,,0.0,,0
+42,Female,non-anginal,115.0,211.0,False,st-t abnormality,137.0,False,0.0,,0.0,,0
+42,Male,atypical angina,120.0,196.0,False,normal,150.0,False,0.0,,0.0,,0
+42,Male,atypical angina,120.0,198.0,False,normal,155.0,False,0.0,,0.0,,0
+42,Male,atypical angina,150.0,268.0,False,normal,136.0,False,0.0,,0.0,,0
+42,Male,non-anginal,120.0,228.0,False,normal,152.0,True,1.5,flat,0.0,,0
+42,Male,non-anginal,160.0,147.0,False,normal,146.0,False,0.0,,0.0,,0
+42,Male,asymptomatic,140.0,358.0,False,normal,170.0,False,0.0,,0.0,,0
+43,Female,typical angina,100.0,223.0,False,normal,142.0,False,0.0,,0.0,,0
+43,Female,atypical angina,120.0,201.0,False,normal,165.0,False,0.0,,0.0,,0
+43,Female,atypical angina,120.0,215.0,False,st-t abnormality,175.0,False,0.0,,0.0,,0
+43,Female,atypical angina,120.0,249.0,False,st-t abnormality,176.0,False,0.0,,0.0,,0
+43,Female,atypical angina,120.0,266.0,False,normal,118.0,False,0.0,,0.0,,0
+43,Female,atypical angina,150.0,186.0,False,normal,154.0,False,0.0,,0.0,,0
+43,Female,non-anginal,150.0,223.0,False,normal,175.0,False,0.0,,0.0,normal,0
+43,Male,atypical angina,142.0,207.0,False,normal,138.0,False,0.0,,0.0,,0
+44,Female,asymptomatic,120.0,218.0,False,st-t abnormality,115.0,False,0.0,,0.0,,0
+44,Male,atypical angina,120.0,184.0,False,normal,142.0,False,1.0,flat,0.0,,0
+44,Male,atypical angina,130.0,215.0,False,normal,135.0,False,0.0,,0.0,,0
+44,Male,asymptomatic,150.0,412.0,False,normal,170.0,False,0.0,,0.0,,0
+45,Female,atypical angina,130.0,237.0,False,normal,170.0,False,0.0,,0.0,,0
+45,Female,atypical angina,180.0,223.0,False,normal,180.0,False,0.0,,0.0,,0
+45,Female,asymptomatic,132.0,297.0,False,normal,144.0,False,0.0,,0.0,,0
+45,Male,atypical angina,140.0,224.0,True,normal,122.0,False,0.0,,0.0,,0
+45,Male,non-anginal,135.0,223.0,False,normal,110.0,False,0.0,,0.0,,0
+45,Male,asymptomatic,120.0,225.0,False,normal,140.0,False,0.0,,0.0,,0
+45,Male,asymptomatic,140.0,224.0,False,normal,144.0,False,0.0,,0.0,,0
+46,Female,asymptomatic,130.0,238.0,False,normal,90.0,False,0.0,,0.0,,0
+46,Male,atypical angina,140.0,275.0,False,normal,165.0,True,0.0,,0.0,,0
+46,Male,non-anginal,120.0,230.0,False,normal,150.0,False,0.0,,0.0,,0
+46,Male,non-anginal,150.0,163.0,,normal,116.0,False,0.0,,0.0,,0
+46,Male,asymptomatic,110.0,238.0,False,st-t abnormality,140.0,True,1.0,flat,0.0,normal,0
+46,Male,asymptomatic,110.0,240.0,False,st-t abnormality,140.0,False,0.0,,0.0,normal,0
+46,Male,asymptomatic,180.0,280.0,False,st-t abnormality,120.0,False,0.0,,0.0,,0
+47,Female,atypical angina,140.0,257.0,False,normal,135.0,False,1.0,upsloping,0.0,,0
+47,Female,non-anginal,130.0,223.0,False,normal,145.0,False,2.0,flat,0.0,,0
+47,Male,typical angina,110.0,249.0,False,normal,150.0,False,0.0,,0.0,,0
+47,Male,atypical angina,160.0,263.0,False,normal,174.0,False,0.0,,0.0,,0
+47,Male,asymptomatic,140.0,276.0,True,normal,125.0,True,0.0,,0.0,,0
+48,Female,atypical angina,130.0,308.0,False,st-t abnormality,140.0,,2.0,upsloping,0.0,,0
+48,Female,atypical angina,120.0,223.0,True,st-t abnormality,148.0,False,0.0,,0.0,,0
+48,Female,atypical angina,120.0,284.0,False,normal,120.0,False,0.0,,0.0,,0
+48,Female,non-anginal,120.0,195.0,False,normal,125.0,False,0.0,,0.0,,0
+48,Female,asymptomatic,108.0,163.0,False,normal,175.0,False,2.0,upsloping,0.0,,0
+48,Female,asymptomatic,120.0,254.0,False,st-t abnormality,110.0,False,0.0,,0.0,,0
+48,Female,asymptomatic,150.0,227.0,False,normal,130.0,True,1.0,flat,0.0,,0
+48,Male,atypical angina,100.0,223.0,False,normal,100.0,False,0.0,,0.0,,0
+48,Male,atypical angina,130.0,245.0,False,normal,160.0,False,0.0,,0.0,,0
+48,Male,atypical angina,140.0,238.0,False,normal,118.0,False,0.0,,0.0,,0
+48,Male,non-anginal,110.0,211.0,False,normal,138.0,False,0.0,,0.0,fixed defect,0
+49,Female,atypical angina,110.0,223.0,False,normal,160.0,False,0.0,,0.0,,0
+49,Female,atypical angina,110.0,223.0,False,normal,160.0,False,0.0,,0.0,,0
+49,Female,atypical angina,124.0,201.0,False,normal,164.0,False,0.0,,0.0,,0
+49,Female,non-anginal,130.0,207.0,False,st-t abnormality,135.0,False,0.0,,0.0,,0
+49,Male,atypical angina,100.0,253.0,False,normal,174.0,False,0.0,,0.0,,0
+49,Male,non-anginal,140.0,187.0,False,normal,172.0,False,0.0,,0.0,,0
+49,Male,asymptomatic,120.0,297.0,,normal,132.0,False,1.0,flat,0.0,,0
+49,Male,asymptomatic,140.0,223.0,False,normal,130.0,False,0.0,,0.0,,0
+50,Female,atypical angina,110.0,202.0,False,normal,145.0,False,0.0,,0.0,,0
+50,Female,asymptomatic,120.0,328.0,False,normal,110.0,True,1.0,flat,0.0,,0
+50,Male,atypical angina,120.0,168.0,False,normal,160.0,False,0.0,,0.0,,0
+50,Male,atypical angina,140.0,216.0,False,normal,170.0,False,0.0,,0.0,normal,0
+50,Male,atypical angina,170.0,209.0,False,st-t abnormality,116.0,False,0.0,,0.0,,0
+50,Male,asymptomatic,140.0,129.0,False,normal,135.0,False,0.0,,0.0,,0
+50,Male,asymptomatic,150.0,215.0,False,normal,140.0,True,0.0,,0.0,,0
+51,Female,atypical angina,160.0,194.0,False,normal,170.0,False,0.0,,0.0,,0
+51,Female,non-anginal,110.0,190.0,False,normal,120.0,False,0.0,,0.0,,0
+51,Female,non-anginal,130.0,220.0,False,normal,160.0,True,2.0,upsloping,0.0,,0
+51,Female,non-anginal,150.0,200.0,False,normal,120.0,False,0.5,upsloping,0.0,,0
+51,Male,atypical angina,125.0,188.0,False,normal,145.0,False,0.0,,0.0,,0
+51,Male,atypical angina,130.0,224.0,False,normal,150.0,False,0.0,,0.0,,0
+51,Male,asymptomatic,130.0,179.0,False,normal,100.0,False,0.0,,0.0,reversable defect,0
+52,Female,atypical angina,120.0,210.0,False,normal,148.0,False,0.0,,0.0,,0
+52,Female,atypical angina,140.0,223.0,False,normal,140.0,False,0.0,,0.0,,0
+52,Female,non-anginal,125.0,272.0,False,normal,139.0,False,0.0,,0.0,,0
+52,Female,asymptomatic,130.0,180.0,False,normal,140.0,True,1.5,flat,0.0,,0
+52,Male,atypical angina,120.0,284.0,False,normal,118.0,False,0.0,,0.0,,0
+52,Male,atypical angina,140.0,100.0,False,normal,138.0,True,0.0,,0.0,,0
+52,Male,atypical angina,160.0,196.0,False,normal,165.0,False,0.0,,0.0,,0
+52,Male,non-anginal,140.0,259.0,False,st-t abnormality,170.0,False,0.0,,0.0,,0
+53,Female,atypical angina,113.0,468.0,,normal,127.0,False,0.0,,0.0,,0
+53,Female,atypical angina,140.0,216.0,False,normal,142.0,True,2.0,flat,0.0,,0
+53,Female,non-anginal,120.0,274.0,False,normal,130.0,False,0.0,,0.0,,0
+53,Male,atypical angina,120.0,223.0,False,normal,132.0,False,0.0,,0.0,,0
+53,Male,atypical angina,140.0,320.0,False,normal,162.0,False,0.0,,0.0,,0
+53,Male,non-anginal,120.0,195.0,False,normal,140.0,False,0.0,,0.0,,0
+53,Male,asymptomatic,124.0,260.0,False,st-t abnormality,112.0,True,3.0,flat,0.0,,0
+53,Male,asymptomatic,130.0,182.0,False,normal,148.0,False,0.0,,0.0,,0
+53,Male,asymptomatic,140.0,243.0,False,normal,155.0,False,0.0,,0.0,,0
+54,Female,atypical angina,120.0,221.0,False,normal,138.0,False,1.0,upsloping,0.0,,0
+54,Female,atypical angina,120.0,230.0,True,normal,140.0,False,0.0,,0.0,,0
+54,Female,atypical angina,120.0,273.0,False,normal,150.0,False,1.5,flat,0.0,,0
+54,Female,atypical angina,130.0,253.0,False,st-t abnormality,155.0,False,0.0,,0.0,,0
+54,Female,atypical angina,140.0,309.0,,st-t abnormality,140.0,False,0.0,,0.0,,0
+54,Female,atypical angina,150.0,230.0,False,normal,130.0,False,0.0,,0.0,,0
+54,Female,atypical angina,160.0,312.0,False,normal,130.0,False,0.0,,0.0,,0
+54,Male,typical angina,120.0,171.0,False,normal,137.0,False,2.0,upsloping,0.0,,0
+54,Male,atypical angina,110.0,208.0,False,normal,142.0,False,0.0,,0.0,,0
+54,Male,atypical angina,120.0,238.0,False,normal,154.0,False,0.0,,0.0,,0
+54,Male,atypical angina,120.0,246.0,False,normal,110.0,False,0.0,,0.0,,0
+54,Male,atypical angina,160.0,195.0,False,st-t abnormality,130.0,False,1.0,upsloping,0.0,,0
+54,Male,atypical angina,160.0,305.0,False,normal,175.0,False,0.0,,0.0,,0
+54,Male,non-anginal,120.0,217.0,False,normal,137.0,False,0.0,,0.0,,0
+54,Male,non-anginal,150.0,223.0,False,normal,122.0,False,0.0,,0.0,,0
+54,Male,asymptomatic,150.0,365.0,False,st-t abnormality,134.0,False,1.0,upsloping,0.0,,0
+55,Female,atypical angina,110.0,344.0,False,st-t abnormality,160.0,False,0.0,,0.0,,0
+55,Female,atypical angina,122.0,320.0,False,normal,155.0,False,0.0,,0.0,,0
+55,Female,atypical angina,130.0,394.0,False,lv hypertrophy,150.0,False,0.0,,0.0,,0
+55,Male,atypical angina,120.0,256.0,True,normal,137.0,False,0.0,,0.0,reversable defect,0
+55,Male,atypical angina,140.0,196.0,False,normal,150.0,False,0.0,,0.0,reversable defect,0
+55,Male,atypical angina,145.0,326.0,False,normal,155.0,False,0.0,,0.0,,0
+55,Male,non-anginal,110.0,277.0,False,normal,160.0,False,0.0,,0.0,,0
+55,Male,non-anginal,120.0,220.0,False,lv hypertrophy,134.0,False,0.0,,0.0,,0
+55,Male,asymptomatic,120.0,270.0,False,normal,140.0,False,0.0,,0.0,,0
+55,Male,asymptomatic,140.0,229.0,False,normal,110.0,True,0.5,flat,0.0,,0
+56,Female,non-anginal,130.0,219.0,,st-t abnormality,164.0,False,0.0,,0.0,reversable defect,0
+56,Male,atypical angina,130.0,184.0,False,normal,100.0,False,0.0,,0.0,,0
+56,Male,non-anginal,130.0,223.0,False,normal,114.0,False,0.0,,0.0,,0
+56,Male,non-anginal,130.0,276.0,False,normal,128.0,True,1.0,upsloping,0.0,fixed defect,0
+56,Male,asymptomatic,120.0,85.0,False,normal,140.0,False,0.0,,0.0,,0
+57,Female,typical angina,130.0,308.0,False,normal,98.0,False,1.0,flat,0.0,,0
+57,Female,asymptomatic,180.0,347.0,False,st-t abnormality,126.0,True,0.8,flat,0.0,,0
+57,Male,atypical angina,140.0,260.0,True,normal,140.0,False,0.0,,0.0,fixed defect,0
+58,Male,atypical angina,130.0,230.0,False,normal,150.0,False,0.0,,0.0,,0
+58,Male,atypical angina,130.0,251.0,False,normal,110.0,False,0.0,,0.0,,0
+58,Male,non-anginal,140.0,179.0,False,normal,160.0,False,0.0,,0.0,,0
+58,Male,asymptomatic,135.0,222.0,False,normal,100.0,False,0.0,,0.0,,0
+59,Female,atypical angina,130.0,188.0,False,normal,124.0,False,1.0,flat,0.0,,0
+59,Male,atypical angina,140.0,287.0,False,normal,150.0,False,0.0,,0.0,,0
+59,Male,non-anginal,130.0,318.0,False,normal,120.0,True,1.0,flat,0.0,normal,0
+59,Male,non-anginal,180.0,213.0,False,normal,100.0,False,0.0,,0.0,,0
+59,Male,asymptomatic,140.0,223.0,False,normal,140.0,False,0.0,,0.0,,0
+60,Male,non-anginal,120.0,246.0,False,lv hypertrophy,135.0,False,0.0,,0.0,,0
+61,Female,asymptomatic,130.0,294.0,False,st-t abnormality,120.0,True,1.0,flat,0.0,,0
+61,Male,asymptomatic,125.0,292.0,False,st-t abnormality,115.0,True,0.0,,0.0,,0
+62,Female,typical angina,160.0,193.0,False,normal,116.0,False,0.0,,0.0,,0
+62,Male,atypical angina,140.0,271.0,False,normal,152.0,False,1.0,upsloping,0.0,,0
+31,Male,asymptomatic,120.0,270.0,False,normal,153.0,True,1.5,flat,0.0,,1
+33,Female,asymptomatic,100.0,246.0,False,normal,150.0,True,1.0,flat,0.0,,1
+34,Male,typical angina,140.0,156.0,False,normal,180.0,False,0.0,,0.0,,1
+35,Male,atypical angina,110.0,257.0,False,normal,140.0,False,0.0,,0.0,,1
+36,Male,atypical angina,120.0,267.0,False,normal,160.0,False,3.0,flat,0.0,,1
+37,Male,asymptomatic,140.0,207.0,False,normal,130.0,True,1.5,flat,0.0,,1
+38,Male,asymptomatic,110.0,196.0,False,normal,166.0,False,0.0,,0.0,,1
+38,Male,asymptomatic,120.0,282.0,False,normal,170.0,False,0.0,,0.0,,1
+38,Male,asymptomatic,92.0,117.0,False,normal,134.0,True,2.5,flat,0.0,,1
+40,Male,asymptomatic,120.0,466.0,,normal,152.0,True,1.0,flat,0.0,fixed defect,1
+41,Male,asymptomatic,110.0,289.0,False,normal,170.0,False,0.0,,0.0,fixed defect,1
+41,Male,asymptomatic,120.0,237.0,,normal,138.0,True,1.0,flat,0.0,,1
+43,Male,asymptomatic,150.0,247.0,False,normal,130.0,True,2.0,flat,0.0,,1
+46,Male,asymptomatic,110.0,202.0,False,normal,150.0,True,0.0,,0.0,,1
+46,Male,asymptomatic,118.0,186.0,False,normal,124.0,False,0.0,,0.0,reversable defect,1
+46,Male,asymptomatic,120.0,277.0,False,normal,125.0,True,1.0,flat,0.0,,1
+47,Male,non-anginal,140.0,193.0,False,normal,145.0,True,1.0,flat,0.0,,1
+47,Male,asymptomatic,150.0,226.0,False,normal,98.0,True,1.5,flat,0.0,reversable defect,1
+48,Male,asymptomatic,106.0,263.0,True,normal,110.0,False,0.0,,0.0,,1
+48,Male,asymptomatic,120.0,260.0,False,normal,115.0,False,2.0,flat,0.0,,1
+48,Male,asymptomatic,160.0,268.0,False,normal,103.0,True,1.0,flat,0.0,,1
+49,Female,non-anginal,160.0,180.0,False,normal,156.0,False,1.0,flat,0.0,,1
+49,Male,non-anginal,115.0,265.0,False,normal,175.0,False,0.0,,0.0,,1
+49,Male,asymptomatic,130.0,206.0,False,normal,170.0,False,0.0,,0.0,,1
+50,Female,non-anginal,140.0,288.0,False,normal,140.0,True,0.0,,0.0,reversable defect,1
+50,Male,asymptomatic,145.0,264.0,False,normal,150.0,False,0.0,,0.0,,1
+51,Female,asymptomatic,160.0,303.0,False,normal,150.0,True,1.0,flat,0.0,,1
+52,Male,asymptomatic,130.0,225.0,False,normal,120.0,True,2.0,flat,0.0,,1
+54,Male,asymptomatic,125.0,216.0,False,normal,140.0,False,0.0,,0.0,,1
+54,Male,asymptomatic,125.0,224.0,False,normal,122.0,False,2.0,flat,0.0,,1
+55,Male,asymptomatic,140.0,201.0,False,normal,130.0,True,3.0,flat,0.0,,1
+57,Male,atypical angina,140.0,265.0,False,st-t abnormality,145.0,True,1.0,flat,0.0,,1
+58,Male,non-anginal,130.0,213.0,False,st-t abnormality,140.0,False,0.0,,0.0,fixed defect,1
+59,Female,asymptomatic,130.0,338.0,True,st-t abnormality,130.0,True,1.5,flat,0.0,,1
+60,Male,asymptomatic,100.0,248.0,False,normal,125.0,False,1.0,flat,0.0,,1
+63,Male,asymptomatic,150.0,223.0,False,normal,115.0,False,0.0,,0.0,,1
+65,Male,asymptomatic,140.0,306.0,True,normal,87.0,True,1.5,flat,0.0,,1
+32,Male,asymptomatic,118.0,529.0,False,normal,130.0,False,0.0,,0.0,,1
+38,Male,asymptomatic,110.0,223.0,False,normal,150.0,True,1.0,flat,0.0,,1
+39,Male,asymptomatic,110.0,280.0,False,normal,150.0,False,0.0,,0.0,fixed defect,1
+40,Female,asymptomatic,150.0,392.0,False,normal,130.0,False,2.0,flat,0.0,fixed defect,1
+43,Male,typical angina,120.0,291.0,False,st-t abnormality,155.0,False,0.0,,0.0,,1
+45,Male,asymptomatic,130.0,219.0,False,st-t abnormality,130.0,True,1.0,flat,0.0,,1
+46,Male,asymptomatic,120.0,231.0,False,normal,115.0,True,0.0,,0.0,,1
+46,Male,asymptomatic,130.0,222.0,False,normal,112.0,False,0.0,,0.0,,1
+48,Male,asymptomatic,122.0,275.0,True,st-t abnormality,150.0,True,2.0,downsloping,0.0,,1
+48,Male,asymptomatic,160.0,193.0,False,normal,102.0,True,3.0,flat,0.0,,1
+48,Male,asymptomatic,160.0,329.0,False,normal,92.0,True,1.5,flat,0.0,,1
+48,Male,asymptomatic,160.0,355.0,False,normal,99.0,True,2.0,flat,0.0,,1
+50,Male,asymptomatic,130.0,233.0,False,normal,121.0,True,2.0,flat,0.0,reversable defect,1
+52,Male,asymptomatic,120.0,182.0,False,normal,150.0,False,0.0,,0.0,,1
+52,Male,asymptomatic,170.0,223.0,False,normal,126.0,True,1.5,flat,0.0,,1
+53,Male,asymptomatic,120.0,246.0,False,normal,116.0,True,0.0,,0.0,,1
+54,Male,non-anginal,120.0,237.0,False,normal,150.0,True,1.5,,0.0,reversable defect,1
+54,Male,asymptomatic,130.0,242.0,False,normal,91.0,True,1.0,flat,0.0,,1
+54,Male,asymptomatic,130.0,603.0,True,normal,125.0,True,1.0,flat,0.0,,1
+54,Male,asymptomatic,140.0,223.0,False,normal,118.0,True,0.0,,0.0,,1
+54,Male,asymptomatic,200.0,198.0,False,normal,142.0,True,2.0,flat,0.0,,1
+55,Male,asymptomatic,140.0,268.0,False,normal,128.0,True,1.5,flat,0.0,,1
+56,Male,asymptomatic,150.0,213.0,True,normal,125.0,True,1.0,flat,0.0,,1
+57,Male,asymptomatic,150.0,255.0,False,normal,92.0,True,3.0,flat,0.0,,1
+58,Male,non-anginal,160.0,211.0,True,st-t abnormality,92.0,False,0.0,,0.0,,1
+58,Male,asymptomatic,130.0,263.0,False,normal,140.0,True,2.0,flat,0.0,,1
+41,Male,asymptomatic,130.0,172.0,False,st-t abnormality,130.0,False,2.0,flat,0.0,,1
+43,Male,asymptomatic,120.0,175.0,False,normal,120.0,True,1.0,flat,0.0,reversable defect,1
+44,Male,atypical angina,150.0,288.0,False,normal,150.0,True,3.0,flat,0.0,,1
+44,Male,asymptomatic,130.0,290.0,False,normal,100.0,True,2.0,flat,0.0,,1
+46,Male,typical angina,140.0,272.0,True,normal,175.0,False,2.0,flat,0.0,,1
+47,Female,non-anginal,135.0,248.0,True,normal,170.0,False,0.0,,0.0,,1
+48,Female,asymptomatic,138.0,214.0,False,normal,108.0,True,1.5,flat,0.0,,1
+49,Male,asymptomatic,130.0,341.0,False,normal,120.0,True,1.0,flat,0.0,,1
+49,Male,asymptomatic,140.0,234.0,False,normal,140.0,True,1.0,flat,0.0,,1
+51,Male,non-anginal,135.0,160.0,False,normal,150.0,False,2.0,flat,0.0,,1
+52,Male,asymptomatic,112.0,342.0,False,st-t abnormality,96.0,True,1.0,flat,0.0,,1
+52,Male,asymptomatic,130.0,298.0,False,normal,110.0,True,1.0,flat,0.0,,1
+52,Male,asymptomatic,140.0,404.0,False,normal,124.0,True,2.0,flat,0.0,,1
+52,Male,asymptomatic,160.0,246.0,False,st-t abnormality,82.0,True,4.0,flat,0.0,,1
+53,Male,non-anginal,145.0,518.0,False,normal,130.0,False,0.0,,0.0,,1
+53,Male,asymptomatic,180.0,285.0,False,st-t abnormality,120.0,True,1.5,flat,0.0,,1
+54,Male,asymptomatic,140.0,216.0,False,normal,105.0,False,1.5,flat,0.0,,1
+55,Male,typical angina,140.0,295.0,False,,136.0,False,0.0,,0.0,,1
+55,Male,atypical angina,160.0,292.0,True,normal,143.0,True,2.0,flat,0.0,,1
+55,Male,asymptomatic,145.0,248.0,False,normal,96.0,True,2.0,flat,0.0,,1
+56,Female,atypical angina,120.0,279.0,False,normal,150.0,False,1.0,flat,0.0,,1
+56,Male,asymptomatic,150.0,230.0,False,st-t abnormality,124.0,True,1.5,flat,0.0,,1
+56,Male,asymptomatic,170.0,388.0,False,st-t abnormality,122.0,True,2.0,flat,0.0,,1
+58,Male,atypical angina,136.0,164.0,False,st-t abnormality,99.0,True,2.0,flat,0.0,,1
+59,Male,asymptomatic,130.0,223.0,False,normal,125.0,False,0.0,,0.0,,1
+59,Male,asymptomatic,140.0,264.0,True,lv hypertrophy,119.0,True,0.0,,0.0,,1
+65,Male,asymptomatic,170.0,263.0,True,normal,112.0,True,2.0,flat,0.0,,1
+66,Male,asymptomatic,140.0,223.0,False,normal,94.0,True,1.0,flat,0.0,,1
+41,Male,asymptomatic,120.0,336.0,False,normal,118.0,True,3.0,flat,0.0,,1
+43,Male,asymptomatic,140.0,288.0,False,normal,135.0,True,2.0,flat,0.0,,1
+44,Male,asymptomatic,135.0,491.0,False,normal,135.0,False,0.0,,0.0,,1
+47,Female,asymptomatic,120.0,205.0,False,normal,98.0,True,2.0,flat,0.0,fixed defect,1
+47,Male,asymptomatic,160.0,291.0,False,st-t abnormality,158.0,True,3.0,flat,0.0,,1
+49,Male,asymptomatic,128.0,212.0,False,normal,96.0,True,0.0,,0.0,,1
+49,Male,asymptomatic,150.0,222.0,False,normal,122.0,False,2.0,flat,0.0,,1
+50,Male,asymptomatic,140.0,231.0,False,st-t abnormality,140.0,True,5.0,flat,0.0,,1
+50,Male,asymptomatic,140.0,341.0,False,st-t abnormality,125.0,True,2.5,flat,0.0,,1
+52,Male,asymptomatic,140.0,266.0,False,normal,134.0,True,2.0,flat,0.0,,1
+52,Male,asymptomatic,160.0,331.0,False,normal,94.0,True,2.5,,0.0,,1
+54,Female,non-anginal,130.0,294.0,False,st-t abnormality,100.0,True,0.0,flat,0.0,,1
+56,Male,asymptomatic,155.0,342.0,True,normal,150.0,True,3.0,flat,0.0,,1
+58,Female,atypical angina,180.0,393.0,False,normal,110.0,True,1.0,flat,0.0,reversable defect,1
+65,Male,asymptomatic,130.0,275.0,False,st-t abnormality,115.0,True,1.0,flat,0.0,,1
