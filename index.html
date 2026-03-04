@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UMI — Unified Medical Intelligence</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="app-container">
+        <aside>
+            <div class="logo-area">
+                <div class="logo-icon">🫀</div>
+                <div class="logo-text">
+                    <h1>UMI</h1>
+                    <p>Unified Med Intelligence</p>
+                </div>
+            </div>
+
+            <ul class="nav-menu">
+                <li class="nav-item active" data-role="Researcher">
+                    <span>🔬</span> Researcher Dash
+                </li>
+                <li class="nav-item" data-role="Doctor">
+                    <span>🩺</span> Doctor View
+                </li>
+                <li class="nav-item" data-role="Regulator">
+                    <span>🔒</span> Compliance Hub
+                </li>
+            </ul>
+
+            <div class="sidebar-config">
+                <h3 style="font-size: 0.7rem; color: var(--text-muted); text-transform: uppercase; margin-bottom: 1rem;">TRAINING CONFIG</h3>
+                <div class="form-group">
+                    <label>FL Rounds</label>
+                    <input type="number" id="n_rounds" value="3" min="1" max="10">
+                </div>
+                <div class="form-group">
+                    <label>FedProx μ</label>
+                    <input type="number" id="mu" value="0.01" step="0.01">
+                </div>
+                <div class="form-group">
+                    <label>Privacy ε</label>
+                    <input type="number" id="epsilon" value="1.0" step="0.1">
+                </div>
+                <button class="btn btn-primary" id="start-train-btn" style="width: 100%;">⚡ Synchronize Network</button>
+            </div>
+        </aside>
+
+        <main>
+            <header>
+                <div class="header-title">
+                    <h2 id="view-title">Federated Research Intelligence</h2>
+                    <p id="view-subtitle">Cross-silo knowledge synthesis with differential privacy</p>
+                </div>
+                <div class="header-actions">
+                    <div id="status-badge" style="background: rgba(255,255,255,0.05); padding: 6px 12px; border-radius: 20px; font-size: 0.75rem; border: 1px solid var(--border);">
+                        Status: <span style="color: var(--accent-green-bright);">● Idle</span>
+                    </div>
+                </div>
+            </header>
+
+            <div class="kpi-grid">
+                <div class="kpi-card">
+                    <div class="kpi-label">Hospitals Connected</div>
+                    <div class="kpi-value" id="kpi-hospitals">0</div>
+                    <div class="kpi-sub" style="color: var(--accent-blue-bright);">Active Nodes</div>
+                </div>
+                <div class="kpi-card">
+                    <div class="kpi-label">Unified Accuracy</div>
+                    <div class="kpi-value" id="kpi-accuracy">0.0%</div>
+                    <div class="kpi-sub" style="color: var(--accent-green-bright);">↑ Global Convergence</div>
+                </div>
+                <div class="kpi-card">
+                    <div class="kpi-label">Privacy Budget (ε)</div>
+                    <div class="kpi-value" id="kpi-epsilon">0.0</div>
+                    <div class="kpi-sub" style="color: var(--accent-purple-bright);">Gaussian Mechanism</div>
+                </div>
+                <div class="kpi-card">
+                    <div class="kpi-label">Data Residency</div>
+                    <div class="kpi-value">100%</div>
+                    <div class="kpi-sub" style="color: var(--text-muted);">ZERO PHI Leaked</div>
+                </div>
+            </div>
+
+            <div class="dashboard-grid" style="margin-top: 1.5rem;">
+                <!-- Researcher/Regulator Panels -->
+                <div class="card log-panel">
+                    <div class="card-header">
+                        <div class="card-title">Live Federation Log</div>
+                        <div style="font-size: 0.7rem; color: var(--text-muted);">STREAMING NOW</div>
+                    </div>
+                    <div class="log-stream" id="log-container">
+                        <div class="log-entry">Waiting for network synchronization...</div>
+                    </div>
+                </div>
+
+                <div class="card trajectory-panel">
+                    <div class="card-header">
+                        <div class="card-title">Weight Trajectory Animation</div>
+                    </div>
+                    <div id="trajectory-chart" style="width: 100%; height: 500px;"></div>
+                </div>
+
+                <div class="card arch-panel">
+                    <div class="card-header">
+                        <div class="card-title">Hybrid Model Architecture Panel</div>
+                        <div style="font-size: 0.7rem; color: var(--text-muted);">4 MODEL TYPES PER SILO</div>
+                    </div>
+                    <div class="arch-grid" id="arch-container">
+                        <!-- Filled by JS -->
+                    </div>
+                </div>
+            </div>
+
+            <!-- Doctor View (Hidden by default) -->
+            <div id="doctor-view" class="dashboard-grid" style="display: none; margin-top: 1.5rem;">
+                <div class="card" style="grid-column: span 6;">
+                    <div class="card-header">
+                        <div class="card-title">Patient Triage Input</div>
+                    </div>
+                    <div id="vitals-form" style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+                        <!-- Inputs added via JS for brevity -->
+                    </div>
+                    <button class="btn btn-primary" id="predict-btn" style="width: 100%; margin-top: 1.5rem;">⚡ Run Prediction</button>
+                </div>
+
+                <div class="card" style="grid-column: span 6;">
+                    <div class="card-header">
+                        <div class="card-title">Risk Analysis & Contribution</div>
+                    </div>
+                    <div id="risk-gauge-container" style="height: 250px;"></div>
+                    <div id="contribution-report" style="margin-top: 1rem;">
+                        <!-- Contribution report via JS -->
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

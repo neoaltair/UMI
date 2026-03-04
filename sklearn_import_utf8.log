@@ -1,0 +1,994 @@
+﻿python : import _frozen_importlib # frozen
+At line:1 char:1
++ python -v -c "import sklearn" 2> sklearn_import.log
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (import _frozen_importlib # frozen:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+import _imp # builtin
+import '_thread' # <class '_frozen_importlib.BuiltinImporter'>
+import '_warnings' # <class '_frozen_importlib.BuiltinImporter'>
+import '_weakref' # <class '_frozen_importlib.BuiltinImporter'>
+import 'winreg' # <class '_frozen_importlib.BuiltinImporter'>
+import '_io' # <class '_frozen_importlib.BuiltinImporter'>
+import 'marshal' # <class '_frozen_importlib.BuiltinImporter'>
+import 'nt' # <class '_frozen_importlib.BuiltinImporter'>
+import '_frozen_importlib_external' # <class '_frozen_importlib.FrozenImporter'>
+# installing zipimport hook
+import 'time' # <class '_frozen_importlib.BuiltinImporter'>
+import 'zipimport' # <class '_frozen_importlib.FrozenImporter'>
+# installed zipimport hook
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\encodings\__pycache__\__init__.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\encodings\__init__.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\__pycache__\\__init__.cpython-313.pyc'
+import '_codecs' # <class '_frozen_importlib.BuiltinImporter'>
+import 'codecs' # <class '_frozen_importlib.FrozenImporter'>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\encodings\__pycache__\aliases.cpython-313.pyc matches C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\encodings\aliases.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\__pycache__\\aliases.cpython-313.pyc'
+import 'encodings.aliases' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190F7D0A350>
+import 'encodings' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190F7C85400>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\encodings\__pycache__\utf_8.cpython-313.pyc matches C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\encodings\utf_8.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\__pycache__\\utf_8.cpython-313.pyc'
+import 'encodings.utf_8' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190F7D0A490>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\encodings\__pycache__\cp1252.cpython-313.pyc matches C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\encodings\cp1252.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\__pycache__\\cp1252.cpython-313.pyc'
+import 'encodings.cp1252' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190F7CF9CD0>
+import '_signal' # <class '_frozen_importlib.BuiltinImporter'>
+import '_abc' # <class '_frozen_importlib.BuiltinImporter'>
+import 'abc' # <class '_frozen_importlib.FrozenImporter'>
+import 'io' # <class '_frozen_importlib.FrozenImporter'>
+import '_stat' # <class '_frozen_importlib.BuiltinImporter'>
+import 'stat' # <class '_frozen_importlib.FrozenImporter'>
+import '_collections_abc' # <class '_frozen_importlib.FrozenImporter'>
+import 'genericpath' # <class '_frozen_importlib.FrozenImporter'>
+import '_winapi' # <class '_frozen_importlib.BuiltinImporter'>
+import 'ntpath' # <class '_frozen_importlib.FrozenImporter'>
+import 'os' # <class '_frozen_importlib.FrozenImporter'>
+import '_sitebuiltins' # <class '_frozen_importlib.FrozenImporter'>
+import 'errno' # <class '_frozen_importlib.BuiltinImporter'>
+Processing user site-packages
+Processing global site-packages
+Adding directory: 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313'
+Adding directory: 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages'
+Processing .pth file: 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\distutils-precedence.pth'
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\encodings\__pycache__\utf_8_sig.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\encodings\utf_8_sig.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\encodings\\__pycache__\\utf_8_sig.cpython-313.pyc'
+import 'encodings.utf_8_sig' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190F7CFA2C0>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\_distutils_hack\__pycache__\__init__.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\_distutils_hack\__init__.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\_distutils_hack\\__pycache__\\__init__.cpython-313.pyc'
+import '_distutils_hack' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190F7F24A70>
+Processing .pth file: 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\google_generativeai-0.8.6-py3.13-nspkg.pth'
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\__pycache__\types.cpython-313.pyc matches C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\types.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\__pycache__\\types.cpython-313.pyc'
+import 'types' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190F7F0C380>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\importlib\__pycache__\__init__.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\importlib\__init__.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\importlib\\__pycache__\\__init__.cpython-313.pyc'
+import 'importlib' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190F7F0C7C0>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\importlib\__pycache__\_abc.cpython-313.pyc matches C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\importlib\_abc.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\importlib\\__pycache__\\_abc.cpython-313.pyc'
+import 'importlib._abc' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190F7EEFA50>
+import 'importlib.util' # <class '_frozen_importlib.FrozenImporter'>
+import 'importlib.machinery' # <class '_frozen_importlib.FrozenImporter'>
+# possible namespace for C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\google
+import 'site' # <class '_frozen_importlib.FrozenImporter'>
+Python 3.13.5 (tags/v3.13.5:6cb20a2, Jun 11 2025, 16:15:46) [MSC v.1943 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\__pycache__\linecache.cpython-313.pyc matches C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\linecache.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\__pycache__\\linecache.cpython-313.pyc'
+import 'linecache' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190F7EEC850>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\__pycache__\__init__.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\__init__.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\sklearn\\__pycache__\\__init__.cpython-313.pyc'
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\logging\__pycache__\__init__.cpython-313.pyc matches C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\logging\__init__.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\logging\\__pycache__\\__init__.cpython-313.pyc'
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\re\__pycache__\__init__.cpython-313.pyc matches C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\re\__init__.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\re\\__pycache__\\__init__.cpython-313.pyc'
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\__pycache__\enum.cpython-313.pyc matches C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\enum.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\__pycache__\\enum.cpython-313.pyc'
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\__pycache__\functools.cpython-313.pyc matches C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\functools.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\__pycache__\\functools.cpython-313.pyc'
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\collections\__pycache__\__init__.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\collections\__init__.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\collections\\__pycache__\\__init__.cpython-313.pyc'
+import 'itertools' # <class '_frozen_importlib.BuiltinImporter'>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\__pycache__\keyword.cpython-313.pyc matches C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\keyword.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\__pycache__\\keyword.cpython-313.pyc'
+import 'keyword' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190F7C977D0>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\__pycache__\operator.cpython-313.pyc matches C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\operator.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\__pycache__\\operator.cpython-313.pyc'
+import '_operator' # <class '_frozen_importlib.BuiltinImporter'>
+import 'operator' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190F80C4CB0>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\__pycache__\reprlib.cpython-313.pyc matches C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\reprlib.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\__pycache__\\reprlib.cpython-313.pyc'
+import 'reprlib' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190F80C4E10>
+import '_collections' # <class '_frozen_importlib.BuiltinImporter'>
+import 'collections' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190F7C96A50>
+import '_functools' # <class '_frozen_importlib.BuiltinImporter'>
+import 'functools' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190F7F17C70>
+import 'enum' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190F7F367B0>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\re\__pycache__\_compiler.cpython-313.pyc matches C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\re\_compiler.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\re\\__pycache__\\_compiler.cpython-313.pyc'
+import '_sre' # <class '_frozen_importlib.BuiltinImporter'>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\re\__pycache__\_parser.cpython-313.pyc matches C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\re\_parser.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\re\\__pycache__\\_parser.cpython-313.pyc'
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\re\__pycache__\_constants.cpython-313.pyc matches C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\re\_constants.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\re\\__pycache__\\_constants.cpython-313.pyc'
+import 're._constants' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190F7F919A0>
+import 're._parser' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190F812A7B0>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\re\__pycache__\_casefix.cpython-313.pyc matches C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\re\_casefix.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\re\\__pycache__\\_casefix.cpython-313.pyc'
+import 're._casefix' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190F80F1AD0>
+import 're._compiler' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190F810DB30>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\__pycache__\copyreg.cpython-313.pyc matches C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\copyreg.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\__pycache__\\copyreg.cpython-313.pyc'
+import 'copyreg' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190F80F1B50>
+import 're' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190F7F36350>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\__pycache__\traceback.cpython-313.pyc matches C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\traceback.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\__pycache__\\traceback.cpython-313.pyc'
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\__pycache__\textwrap.cpython-313.pyc matches C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\textwrap.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\__pycache__\\textwrap.cpython-313.pyc'
+import 'textwrap' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190F80E4BB0>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\__pycache__\warnings.cpython-313.pyc matches C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\warnings.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\__pycache__\\warnings.cpython-313.pyc'
+import 'warnings' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190F80D3470>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\__pycache__\contextlib.cpython-313.pyc matches C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\contextlib.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\__pycache__\\contextlib.cpython-313.pyc'
+import 'contextlib' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190F80D3890>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\__pycache__\_colorize.cpython-313.pyc matches C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\_colorize.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\__pycache__\\_colorize.cpython-313.pyc'
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\__pycache__\__future__.cpython-313.pyc matches C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\__future__.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\__pycache__\\__future__.cpython-313.pyc'
+import '__future__' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190F81688F0>
+import '_colorize' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190F8168C50>
+import 'traceback' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190F7F834D0>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\__pycache__\weakref.cpython-313.pyc matches C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\weakref.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\__pycache__\\weakref.cpython-313.pyc'
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\__pycache__\_weakrefset.cpython-313.pyc matches C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\_weakrefset.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\__pycache__\\_weakrefset.cpython-313.pyc'
+import '_weakrefset' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190F81694F0>
+import 'weakref' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190F8169010>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\__pycache__\string.cpython-313.pyc matches C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\string.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\__pycache__\\string.cpython-313.pyc'
+import '_string' # <class '_frozen_importlib.BuiltinImporter'>
+import 'string' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190F8169D90>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\__pycache__\threading.cpython-313.pyc matches C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\threading.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\__pycache__\\threading.cpython-313.pyc'
+import 'threading' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190F816A4B0>
+import 'atexit' # <class '_frozen_importlib.BuiltinImporter'>
+import 'logging' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190F7EFD310>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\__pycache__\random.cpython-313.pyc matches C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\random.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\__pycache__\\random.cpython-313.pyc'
+import 'math' # <class '_frozen_importlib.BuiltinImporter'>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\__pycache__\bisect.cpython-313.pyc matches C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\bisect.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\__pycache__\\bisect.cpython-313.pyc'
+import '_bisect' # <class '_frozen_importlib.BuiltinImporter'>
+import 'bisect' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190F816A630>
+import '_random' # <class '_frozen_importlib.BuiltinImporter'>
+import 'random' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190F7F12150>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\__pycache__\_config.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\_config.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\sklearn\\__pycache__\\_config.cpython-313.pyc'
+import 'sklearn._config' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190F7F121B0>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\__check_build\__pycache__\__init__.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\__check_build\__init__.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\sklearn\\__check_build\\__pycache__\\__init__.cpython-313.pyc'
+# extension module 'sklearn.__check_build._check_build' loaded from 
+'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\sklearn\\__check_build\\_check_build.cp313-win_amd64.pyd'
+import 'zlib' # <class '_frozen_importlib.BuiltinImporter'>
+# extension module 'sklearn.__check_build._check_build' executed from 
+'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\sklearn\\__check_build\\_check_build.cp313-win_amd64.pyd'
+import 'sklearn.__check_build._check_build' # <_frozen_importlib_external.ExtensionFileLoader object at 0x00000190F811ABA0>
+import 'sklearn.__check_build' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190F816BCB0>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\__pycache__\_distributor_init.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\_distributor_init.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\sklearn\\__pycache__\\_distributor_init.cpython-313.pyc'
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\ctypes\__pycache__\__init__.cpython-313.pyc matches C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\ctypes\__init__.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\ctypes\\__pycache__\\__init__.cpython-313.pyc'
+# extension module '_ctypes' loaded from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_ctypes.pyd'
+# extension module '_ctypes' executed from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_ctypes.pyd'
+import '_ctypes' # <_frozen_importlib_external.ExtensionFileLoader object at 0x00000190F80DB9D0>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\__pycache__\struct.cpython-313.pyc matches C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\struct.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\__pycache__\\struct.cpython-313.pyc'
+import '_struct' # <class '_frozen_importlib.BuiltinImporter'>
+import 'struct' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190F83E8590>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\ctypes\__pycache__\_endian.cpython-313.pyc matches C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\ctypes\_endian.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\ctypes\\__pycache__\\_endian.cpython-313.pyc'
+import 'ctypes._endian' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190F83E8710>
+import 'ctypes' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190F816BFB0>
+import 'sklearn._distributor_init' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190F816AE70>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\__pycache__\base.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\base.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\sklearn\\__pycache__\\base.cpython-313.pyc'
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\__pycache__\copy.cpython-313.pyc matches C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\copy.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\__pycache__\\copy.cpython-313.pyc'
+import 'copy' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190F83E8AD0>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\__pycache__\inspect.cpython-313.pyc matches C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\inspect.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\__pycache__\\inspect.cpython-313.pyc'
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\__pycache__\ast.cpython-313.pyc matches C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\ast.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\__pycache__\\ast.cpython-313.pyc'
+import '_ast' # <class '_frozen_importlib.BuiltinImporter'>
+import 'ast' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190F83E9550>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\__pycache__\dis.cpython-313.pyc matches C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\dis.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\__pycache__\\dis.cpython-313.pyc'
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\__pycache__\opcode.cpython-313.pyc matches C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\opcode.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\__pycache__\\opcode.cpython-313.pyc'
+import '_opcode' # <class '_frozen_importlib.BuiltinImporter'>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\__pycache__\_opcode_metadata.cpython-313.pyc matches C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\_opcode_metadata.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\__pycache__\\_opcode_metadata.cpython-313.pyc'
+import '_opcode_metadata' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190F8443B30>
+import 'opcode' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190F8443A10>
+import 'dis' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190F84434D0>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\__pycache__\tokenize.cpython-313.pyc matches C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\tokenize.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\__pycache__\\tokenize.cpython-313.pyc'
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\__pycache__\token.cpython-313.pyc matches C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\token.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\__pycache__\\token.cpython-313.pyc'
+import 'token' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190F84A4650>
+import '_tokenize' # <class '_frozen_importlib.BuiltinImporter'>
+import 'tokenize' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190F84A4350>
+import 'inspect' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190F83E9430>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\__pycache__\platform.cpython-313.pyc matches C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\platform.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\__pycache__\\platform.cpython-313.pyc'
+# extension module '_wmi' loaded from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_wmi.pyd'
+# extension module '_wmi' executed from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_wmi.pyd'
+import '_wmi' # <_frozen_importlib_external.ExtensionFileLoader object at 0x00000190F8416710>
+import 'platform' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190F83EA990>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\__pycache__\__init__.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\__init__.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\__pycache__\\__init__.cpython-313.pyc'
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\__pycache__\version.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\version.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\__pycache__\\version.cpython-313.pyc'
+import 'numpy.version' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190F84A6090>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\__pycache__\_expired_attrs_2_0.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\_expired_attrs_2_0.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\__pycache__\\_expired_attrs_2_0.cpython-313.pyc'
+import 'numpy._expired_attrs_2_0' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190F84A61B0>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\__pycache__\_globals.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\_globals.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\__pycache__\\_globals.cpython-313.pyc'
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\_utils\__pycache__\__init__.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\_utils\__init__.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\_utils\\__pycache__\\__init__.cpython-313.pyc'
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\_utils\__pycache__\_convertions.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\_utils\_convertions.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\_utils\\__pycache__\\_convertions.cpython-313.pyc'
+import 'numpy._utils._convertions' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190F84A6930>
+import 'numpy._utils' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190F84A67B0>
+import 'numpy._globals' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190F84A6690>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\__pycache__\_distributor_init.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\_distributor_init.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\__pycache__\\_distributor_init.cpython-313.pyc'
+import 'numpy._distributor_init' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190F84A66F0>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\__pycache__\__config__.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\__config__.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\__pycache__\\__config__.cpython-313.pyc'
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\_core\__pycache__\__init__.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\_core\__init__.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\_core\\__pycache__\\__init__.cpython-313.pyc'
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\_core\__pycache__\multiarray.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\_core\multiarray.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\_core\\__pycache__\\multiarray.cpython-313.pyc'
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\__pycache__\datetime.cpython-313.pyc matches C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\datetime.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\__pycache__\\datetime.cpython-313.pyc'
+import '_datetime' # <class '_frozen_importlib.BuiltinImporter'>
+import 'datetime' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190F84A7050>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\__pycache__\exceptions.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\exceptions.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\__pycache__\\exceptions.cpython-313.pyc'
+import 'numpy.exceptions' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190F84A7170>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\_core\__pycache__\_exceptions.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\_core\_exceptions.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\_core\\__pycache__\\_exceptions.cpython-313.pyc'
+import 'numpy._core._exceptions' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190F84A7590>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\_core\__pycache__\printoptions.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\_core\printoptions.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\_core\\__pycache__\\printoptions.cpython-313.pyc'
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\__pycache__\contextvars.cpython-313.pyc matches C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\contextvars.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\__pycache__\\contextvars.cpython-313.pyc'
+import '_contextvars' # <class '_frozen_importlib.BuiltinImporter'>
+import 'contextvars' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190F84A7FB0>
+import 'numpy._core.printoptions' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190F84A7F50>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\__pycache__\dtypes.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\dtypes.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\__pycache__\\dtypes.cpython-313.pyc'
+import 'numpy.dtypes' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190F9DB0EF0>
+# extension module 'numpy._core._multiarray_umath' loaded from 
+'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\_core\\_multiarray_umath.cp313-win_amd64.pyd'
+# extension module 'numpy._core._multiarray_umath' executed from 
+'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\_core\\_multiarray_umath.cp313-win_amd64.pyd'
+import 'numpy._core._multiarray_umath' # <_frozen_importlib_external.ExtensionFileLoader object at 0x00000190F9D7C770>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\_core\__pycache__\overrides.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\_core\overrides.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\_core\\__pycache__\\overrides.cpython-313.pyc'
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\_utils\__pycache__\_inspect.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\_utils\_inspect.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\_utils\\__pycache__\\_inspect.cpython-313.pyc'
+import 'numpy._utils._inspect' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190F9DB3710>
+import 'numpy._core.overrides' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190F9DB34D0>
+import 'numpy._core.multiarray' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190F84A6DB0>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\_core\__pycache__\umath.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\_core\umath.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\_core\\__pycache__\\umath.cpython-313.pyc'
+import 'numpy._core.umath' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190F84A6E70>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\_core\__pycache__\numerictypes.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\_core\numerictypes.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\_core\\__pycache__\\numerictypes.cpython-313.pyc'
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\__pycache__\numbers.cpython-313.pyc matches C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\numbers.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\__pycache__\\numbers.cpython-313.pyc'
+import 'numbers' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190F9DB3CB0>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\_core\__pycache__\_dtype.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\_core\_dtype.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\_core\\__pycache__\\_dtype.cpython-313.pyc'
+import 'numpy._core._dtype' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FE2BC1D0>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\_core\__pycache__\_string_helpers.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\_core\_string_helpers.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\_core\\__pycache__\\_string_helpers.cpython-313.pyc'
+import 'numpy._core._string_helpers' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FE2BC410>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\_core\__pycache__\_type_aliases.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\_core\_type_aliases.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\_core\\__pycache__\\_type_aliases.cpython-313.pyc'
+import 'numpy._core._type_aliases' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FE2BC470>
+import 'numpy._core.numerictypes' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190F9DB3AD0>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\_core\__pycache__\_machar.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\_core\_machar.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\_core\\__pycache__\\_machar.cpython-313.pyc'
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\_core\__pycache__\_ufunc_config.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\_core\_ufunc_config.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\_core\\__pycache__\\_ufunc_config.cpython-313.pyc'
+import 'numpy._core._ufunc_config' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FE2BC710>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\_core\__pycache__\fromnumeric.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\_core\fromnumeric.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\_core\\__pycache__\\fromnumeric.cpython-313.pyc'
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\_core\__pycache__\_methods.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\_core\_methods.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\_core\\__pycache__\\_methods.cpython-313.pyc'
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\__pycache__\pickle.cpython-313.pyc matches C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\pickle.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\__pycache__\\pickle.cpython-313.pyc'
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\__pycache__\_compat_pickle.cpython-313.pyc matches C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\_compat_pickle.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\__pycache__\\_compat_pickle.cpython-313.pyc'
+import '_compat_pickle' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FE2BD970>
+import '_pickle' # <class '_frozen_importlib.BuiltinImporter'>
+import 'pickle' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FE2BD6D0>
+import 'numpy._core._methods' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FE2BD0D0>
+import 'numpy._core.fromnumeric' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FE2BC9B0>
+import 'numpy._core._machar' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190F9DB3C50>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\_core\__pycache__\einsumfunc.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\_core\einsumfunc.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\_core\\__pycache__\\einsumfunc.cpython-313.pyc'
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\_core\__pycache__\numeric.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\_core\numeric.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\_core\\__pycache__\\numeric.cpython-313.pyc'
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\_core\__pycache__\shape_base.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\_core\shape_base.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\_core\\__pycache__\\shape_base.cpython-313.pyc'
+import 'numpy._core.shape_base' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FE334170>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\_core\__pycache__\_asarray.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\_core\_asarray.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\_core\\__pycache__\\_asarray.cpython-313.pyc'
+import 'numpy._core._asarray' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FE335370>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\_core\__pycache__\arrayprint.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\_core\arrayprint.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\_core\\__pycache__\\arrayprint.cpython-313.pyc'
+import 'numpy._core.arrayprint' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FE3353D0>
+import 'numpy._core.numeric' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FE2BFA70>
+import 'numpy._core.einsumfunc' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FE2BC6B0>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\_core\__pycache__\function_base.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\_core\function_base.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\_core\\__pycache__\\function_base.cpython-313.pyc'
+import 'numpy._core.function_base' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FE2BF950>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\_core\__pycache__\getlimits.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\_core\getlimits.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\_core\\__pycache__\\getlimits.cpython-313.pyc'
+import 'numpy._core.getlimits' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FE335AF0>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\_core\__pycache__\memmap.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\_core\memmap.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\_core\\__pycache__\\memmap.cpython-313.pyc'
+import 'numpy._core.memmap' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FE336DB0>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\_core\__pycache__\records.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\_core\records.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\_core\\__pycache__\\records.cpython-313.pyc'
+import 'numpy._core.records' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FE336FF0>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\_core\__pycache__\_add_newdocs.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\_core\_add_newdocs.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\_core\\__pycache__\\_add_newdocs.cpython-313.pyc'
+import 'numpy._core._add_newdocs' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FE337470>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\_core\__pycache__\_add_newdocs_scalars.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\_core\_add_newdocs_scalars.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\_core\\__pycache__\\_add_newdocs_scalars.cpython-313.pyc'
+import 'numpy._core._add_newdocs_scalars' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FE3370B0>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\_core\__pycache__\_dtype_ctypes.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\_core\_dtype_ctypes.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\_core\\__pycache__\\_dtype_ctypes.cpython-313.pyc'
+import 'numpy._core._dtype_ctypes' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FE337EF0>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\_core\__pycache__\_internal.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\_core\_internal.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\_core\\__pycache__\\_internal.cpython-313.pyc'
+import 'numpy._core._internal' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FE390350>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\__pycache__\_pytesttester.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\_pytesttester.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\__pycache__\\_pytesttester.cpython-313.pyc'
+import 'numpy._pytesttester' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FE390470>
+import 'numpy._core' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190F84A6B70>
+import 'numpy.__config__' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190F84A69F0>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\lib\__pycache__\__init__.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\lib\__init__.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\lib\\__pycache__\\__init__.cpython-313.pyc'
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\lib\__pycache__\_arraypad_impl.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\lib\_arraypad_impl.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\lib\\__pycache__\\_arraypad_impl.cpython-313.pyc'
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\lib\__pycache__\_index_tricks_impl.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\lib\_index_tricks_impl.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\lib\\__pycache__\\_index_tricks_impl.cpython-313.pyc'
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\matrixlib\__pycache__\__init__.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\matrixlib\__init__.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\matrixlib\\__pycache__\\__init__.cpython-313.pyc'
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\matrixlib\__pycache__\defmatrix.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\matrixlib\defmatrix.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\matrixlib\\__pycache__\\defmatrix.cpython-313.pyc'
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\linalg\__pycache__\__init__.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\linalg\__init__.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\linalg\\__pycache__\\__init__.cpython-313.pyc'
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\linalg\__pycache__\_linalg.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\linalg\_linalg.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\linalg\\__pycache__\\_linalg.cpython-313.pyc'
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\__pycache__\typing.cpython-313.pyc matches C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\typing.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\__pycache__\\typing.cpython-313.pyc'
+import '_typing' # <class '_frozen_importlib.BuiltinImporter'>
+import 'typing' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FE3919D0>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\_typing\__pycache__\__init__.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\_typing\__init__.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\_typing\\__pycache__\\__init__.cpython-313.pyc'
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\_typing\__pycache__\_array_like.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\_typing\_array_like.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\_typing\\__pycache__\\_array_like.cpython-313.pyc'
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\_typing\__pycache__\_nbit_base.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\_typing\_nbit_base.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\_typing\\__pycache__\\_nbit_base.cpython-313.pyc'
+import 'numpy._typing._nbit_base' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FE3EA3F0>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\_typing\__pycache__\_nested_sequence.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\_typing\_nested_sequence.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\_typing\\__pycache__\\_nested_sequence.cpython-313.pyc'
+import 'numpy._typing._nested_sequence' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FE3EA990>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\_typing\__pycache__\_shape.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\_typing\_shape.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\_typing\\__pycache__\\_shape.cpython-313.pyc'
+import 'numpy._typing._shape' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FE3EB050>
+import 'numpy._typing._array_like' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FE3EA1B0>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\_typing\__pycache__\_char_codes.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\_typing\_char_codes.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\_typing\\__pycache__\\_char_codes.cpython-313.pyc'
+import 'numpy._typing._char_codes' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FE3EB110>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\_typing\__pycache__\_dtype_like.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\_typing\_dtype_like.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\_typing\\__pycache__\\_dtype_like.cpython-313.pyc'
+import 'numpy._typing._dtype_like' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FE449550>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\_typing\__pycache__\_nbit.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\_typing\_nbit.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\_typing\\__pycache__\\_nbit.cpython-313.pyc'
+import 'numpy._typing._nbit' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FE449730>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\_typing\__pycache__\_scalars.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\_typing\_scalars.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\_typing\\__pycache__\\_scalars.cpython-313.pyc'
+import 'numpy._typing._scalars' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FE449790>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\_typing\__pycache__\_ufunc.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\_typing\_ufunc.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\_typing\\__pycache__\\_ufunc.cpython-313.pyc'
+import 'numpy._typing._ufunc' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FE4497F0>
+import 'numpy._typing' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FE393E30>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\lib\__pycache__\_twodim_base_impl.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\lib\_twodim_base_impl.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\lib\\__pycache__\\_twodim_base_impl.cpython-313.pyc'
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\lib\__pycache__\_stride_tricks_impl.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\lib\_stride_tricks_impl.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\lib\\__pycache__\\_stride_tricks_impl.cpython-313.pyc'
+import 'numpy.lib._stride_tricks_impl' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FE449BB0>
+import 'numpy.lib._twodim_base_impl' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FE3E9790>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\lib\__pycache__\array_utils.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\lib\array_utils.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\lib\\__pycache__\\array_utils.cpython-313.pyc'
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\lib\__pycache__\_array_utils_impl.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\lib\_array_utils_impl.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\lib\\__pycache__\\_array_utils_impl.cpython-313.pyc'
+import 'numpy.lib._array_utils_impl' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FE449E50>
+import 'numpy.lib.array_utils' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FE449B50>
+# extension module 'numpy.linalg._umath_linalg' loaded from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\linalg\\_umath_linalg.cp313-win_amd64.pyd'
+# extension module 'numpy.linalg._umath_linalg' executed from 
+'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\linalg\\_umath_linalg.cp313-win_amd64.pyd'
+import 'numpy.linalg._umath_linalg' # <_frozen_importlib_external.ExtensionFileLoader object at 0x00000190FE377BB0>
+import 'numpy.linalg._linalg' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FE3917F0>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\linalg\__pycache__\linalg.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\linalg\linalg.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\linalg\\__pycache__\\linalg.cpython-313.pyc'
+import 'numpy.linalg.linalg' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FE44A270>
+import 'numpy.linalg' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FE391610>
+import 'numpy.matrixlib.defmatrix' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FE391310>
+import 'numpy.matrixlib' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FE391070>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\lib\__pycache__\_function_base_impl.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\lib\_function_base_impl.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\lib\\__pycache__\\_function_base_impl.cpython-313.pyc'
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\lib\__pycache__\_histograms_impl.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\lib\_histograms_impl.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\lib\\__pycache__\\_histograms_impl.cpython-313.pyc'
+import 'numpy.lib._histograms_impl' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FE391790>
+import 'numpy.lib._function_base_impl' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FE391250>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\lib\__pycache__\stride_tricks.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\lib\stride_tricks.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\lib\\__pycache__\\stride_tricks.cpython-313.pyc'
+import 'numpy.lib.stride_tricks' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FE44B590>
+import 'numpy.lib._index_tricks_impl' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FE390A10>
+import 'numpy.lib._arraypad_impl' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190F84A6D50>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\lib\__pycache__\_arraysetops_impl.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\lib\_arraysetops_impl.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\lib\\__pycache__\\_arraysetops_impl.cpython-313.pyc'
+import 'numpy.lib._arraysetops_impl' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FE3904D0>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\lib\__pycache__\_arrayterator_impl.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\lib\_arrayterator_impl.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\lib\\__pycache__\\_arrayterator_impl.cpython-313.pyc'
+import 'numpy.lib._arrayterator_impl' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FE44B830>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\lib\__pycache__\_nanfunctions_impl.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\lib\_nanfunctions_impl.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\lib\\__pycache__\\_nanfunctions_impl.cpython-313.pyc'
+import 'numpy.lib._nanfunctions_impl' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FE44B890>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\lib\__pycache__\_npyio_impl.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\lib\_npyio_impl.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\lib\\__pycache__\\_npyio_impl.cpython-313.pyc'
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\lib\__pycache__\format.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\lib\format.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\lib\\__pycache__\\format.cpython-313.pyc'
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\lib\__pycache__\_format_impl.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\lib\_format_impl.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\lib\\__pycache__\\_format_impl.cpython-313.pyc'
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\lib\__pycache__\_utils_impl.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\lib\_utils_impl.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\lib\\__pycache__\\_utils_impl.cpython-313.pyc'
+import 'numpy.lib._utils_impl' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FE4C53D0>
+import 'numpy.lib._format_impl' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FE4C4890>
+import 'numpy.lib.format' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FE4C4590>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\lib\__pycache__\_datasource.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\lib\_datasource.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\lib\\__pycache__\\_datasource.cpython-313.pyc'
+import 'numpy.lib._datasource' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FE4C47D0>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\lib\__pycache__\_iotools.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\lib\_iotools.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\lib\\__pycache__\\_iotools.cpython-313.pyc'
+import 'numpy.lib._iotools' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FE4C6030>
+import 'numpy.lib._npyio_impl' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FE4C4470>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\lib\__pycache__\_polynomial_impl.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\lib\_polynomial_impl.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\lib\\__pycache__\\_polynomial_impl.cpython-313.pyc'
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\lib\__pycache__\_type_check_impl.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\lib\_type_check_impl.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\lib\\__pycache__\\_type_check_impl.cpython-313.pyc'
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\lib\__pycache__\_ufunclike_impl.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\lib\_ufunclike_impl.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\lib\\__pycache__\\_ufunclike_impl.cpython-313.pyc'
+import 'numpy.lib._ufunclike_impl' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FE4C7650>
+import 'numpy.lib._type_check_impl' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FE4C6FF0>
+import 'numpy.lib._polynomial_impl' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FE4C6390>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\lib\__pycache__\_shape_base_impl.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\lib\_shape_base_impl.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\lib\\__pycache__\\_shape_base_impl.cpython-313.pyc'
+import 'numpy.lib._shape_base_impl' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FE4C7A70>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\lib\__pycache__\_version.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\lib\_version.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\lib\\__pycache__\\_version.cpython-313.pyc'
+import 'numpy.lib._version' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FE508110>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\lib\__pycache__\introspect.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\lib\introspect.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\lib\\__pycache__\\introspect.cpython-313.pyc'
+import 'numpy.lib.introspect' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FE508290>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\lib\__pycache__\mixins.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\lib\mixins.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\lib\\__pycache__\\mixins.cpython-313.pyc'
+import 'numpy.lib.mixins' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FE508350>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\lib\__pycache__\npyio.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\lib\npyio.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\lib\\__pycache__\\npyio.cpython-313.pyc'
+import 'numpy.lib.npyio' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FE508470>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\lib\__pycache__\scimath.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\lib\scimath.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\lib\\__pycache__\\scimath.cpython-313.pyc'
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\lib\__pycache__\_scimath_impl.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\lib\_scimath_impl.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\lib\\__pycache__\\_scimath_impl.cpython-313.pyc'
+import 'numpy.lib._scimath_impl' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FE508590>
+import 'numpy.lib.scimath' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FE5084D0>
+import 'numpy.lib' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190F84A6AB0>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\__pycache__\_array_api_info.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\_array_api_info.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\__pycache__\\_array_api_info.cpython-313.pyc'
+import 'numpy._array_api_info' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FE508530>
+import 'numpy' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190F84A5F10>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\__pycache__\exceptions.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\exceptions.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\sklearn\\__pycache__\\exceptions.cpython-313.pyc'
+import 'sklearn.exceptions' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190F9DB2A50>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\utils\__pycache__\__init__.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\utils\__init__.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\sklearn\\utils\\__pycache__\\__init__.cpython-313.pyc'
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\utils\__pycache__\metadata_routing.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\utils\metadata_routing.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\sklearn\\utils\\__pycache__\\metadata_routing.cpython-313.pyc'
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\utils\__pycache__\_metadata_requests.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\utils\_metadata_requests.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\sklearn\\utils\\__pycache__\\_metadata_requests.cpython-313.pyc'
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\utils\__pycache__\_bunch.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\utils\_bunch.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\sklearn\\utils\\__pycache__\\_bunch.cpython-313.pyc'
+import 'sklearn.utils._bunch' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FE509FD0>
+import 'sklearn.utils._metadata_requests' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FE509D90>
+import 'sklearn.utils.metadata_routing' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FE509CD0>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\utils\__pycache__\_chunking.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\utils\_chunking.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\sklearn\\utils\\__pycache__\\_chunking.cpython-313.pyc'
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\utils\__pycache__\_param_validation.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\utils\_param_validation.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\sklearn\\utils\\__pycache__\\_param_validation.cpython-313.pyc'
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\scipy\__pycache__\__init__.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\scipy\__init__.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\scipy\\__pycache__\\__init__.cpython-313.pyc'
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\scipy\__pycache__\__config__.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\scipy\__config__.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\scipy\\__pycache__\\__config__.cpython-313.pyc'
+import 'scipy.__config__' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FE50B7D0>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\scipy\__pycache__\version.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\scipy\version.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\scipy\\__pycache__\\version.cpython-313.pyc'
+import 'scipy.version' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FE5502F0>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\scipy\__pycache__\_distributor_init.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\scipy\_distributor_init.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\scipy\\__pycache__\\_distributor_init.cpython-313.pyc'
+import 'scipy._distributor_init' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FE5505F0>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\scipy\_lib\__pycache__\__init__.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\scipy\_lib\__init__.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\scipy\\_lib\\__pycache__\\__init__.cpython-313.pyc'
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\scipy\_lib\__pycache__\_testutils.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\scipy\_lib\_testutils.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\scipy\\_lib\\__pycache__\\_testutils.cpython-313.pyc'
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\__pycache__\shutil.cpython-313.pyc matches C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\shutil.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\__pycache__\\shutil.cpython-313.pyc'
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\__pycache__\fnmatch.cpython-313.pyc matches C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\fnmatch.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\__pycache__\\fnmatch.cpython-313.pyc'
+import 'posixpath' # <class '_frozen_importlib.FrozenImporter'>
+import 'fnmatch' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FE551910>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\__pycache__\bz2.cpython-313.pyc matches C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\bz2.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\__pycache__\\bz2.cpython-313.pyc'
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\__pycache__\_compression.cpython-313.pyc matches C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\_compression.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\__pycache__\\_compression.cpython-313.pyc'
+import '_compression' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FE552AB0>
+# extension module '_bz2' loaded from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_bz2.pyd'
+# extension module '_bz2' executed from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_bz2.pyd'
+import '_bz2' # <_frozen_importlib_external.ExtensionFileLoader object at 0x00000190FE555490>
+import 'bz2' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FE5520F0>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\__pycache__\lzma.cpython-313.pyc matches C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\lzma.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\__pycache__\\lzma.cpython-313.pyc'
+# extension module '_lzma' loaded from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_lzma.pyd'
+# extension module '_lzma' executed from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_lzma.pyd'
+import '_lzma' # <_frozen_importlib_external.ExtensionFileLoader object at 0x00000190FE569150>
+import 'lzma' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FE5525D0>
+import 'shutil' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FE550D10>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\__pycache__\subprocess.cpython-313.pyc matches C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\subprocess.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\__pycache__\\subprocess.cpython-313.pyc'
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\__pycache__\locale.cpython-313.pyc matches C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\locale.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\__pycache__\\locale.cpython-313.pyc'
+import '_locale' # <class '_frozen_importlib.BuiltinImporter'>
+import 'locale' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FE553A70>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\__pycache__\signal.cpython-313.pyc matches C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\signal.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\__pycache__\\signal.cpython-313.pyc'
+import 'signal' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FE553CB0>
+import 'msvcrt' # <class '_frozen_importlib.BuiltinImporter'>
+import 'subprocess' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FE551EB0>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\sysconfig\__pycache__\__init__.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\sysconfig\__init__.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\sysconfig\\__pycache__\\__init__.cpython-313.pyc'
+import 'sysconfig' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FE553A10>
+import '_sysconfig' # <class '_frozen_importlib.BuiltinImporter'>
+import 'scipy._lib._testutils' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FE550710>
+import 'scipy._lib' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FE5506B0>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\scipy\_lib\__pycache__\_pep440.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\scipy\_lib\_pep440.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\scipy\\_lib\\__pycache__\\_pep440.cpython-313.pyc'
+import 'scipy._lib._pep440' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FE550650>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\scipy\_lib\__pycache__\_ccallback.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\scipy\_lib\_ccallback.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\scipy\\_lib\\__pycache__\\_ccallback.cpython-313.pyc'
+# extension module 'scipy._lib._ccallback_c' loaded from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\scipy\\_lib\\_ccallback_c.cp313-win_amd64.pyd'
+# extension module 'scipy._cyutility' loaded from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\scipy\\_cyutility.cp313-win_amd64.pyd'
+# extension module 'scipy._cyutility' executed from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\scipy\\_cyutility.cp313-win_amd64.pyd'
+import 'scipy._cyutility' # <_frozen_importlib_external.ExtensionFileLoader object at 0x00000190FE58E150>
+# extension module 'scipy._lib._ccallback_c' executed from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\scipy\\_lib\\_ccallback_c.cp313-win_amd64.pyd'
+import 'scipy._lib._ccallback_c' # <_frozen_importlib_external.ExtensionFileLoader object at 0x00000190FE569BF0>
+import 'scipy._lib._ccallback' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FE5B9BB0>
+import 'scipy' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FE50B6B0>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\scipy\sparse\__pycache__\__init__.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\scipy\sparse\__init__.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\scipy\\sparse\\__pycache__\\__init__.cpython-313.pyc'
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\scipy\sparse\__pycache__\_base.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\scipy\sparse\_base.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\scipy\\sparse\\__pycache__\\_base.cpython-313.pyc'
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\scipy\sparse\__pycache__\_sputils.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\scipy\sparse\_sputils.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\scipy\\sparse\\__pycache__\\_sputils.cpython-313.pyc'
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\scipy\_lib\__pycache__\_util.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\scipy\_lib\_util.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\scipy\\_lib\\__pycache__\\_util.cpython-313.pyc'
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\scipy\_lib\__pycache__\_array_api.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\scipy\_lib\_array_api.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\scipy\\_lib\\__pycache__\\_array_api.cpython-313.pyc'
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\__pycache__\dataclasses.cpython-313.pyc matches C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\dataclasses.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\__pycache__\\dataclasses.cpython-313.pyc'
+import 'dataclasses' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FE61CF50>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\typing\__pycache__\__init__.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\typing\__init__.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\typing\\__pycache__\\__init__.cpython-313.pyc'
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\_typing\__pycache__\_add_docstring.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\_typing\_add_docstring.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\_typing\\__pycache__\\_add_docstring.cpython-313.pyc'
+import 'numpy._typing._add_docstring' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FE61DF10>
+import 'numpy.typing' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FE61D850>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\scipy\_lib\array_api_compat\__pycache__\__init__.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\scipy\_lib\array_api_compat\__init__.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\scipy\\_lib\\array_api_compat\\__pycache__\\__init__.cpython-313.pyc'
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\scipy\_lib\array_api_compat\common\__pycache__\__init__.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\scipy\_lib\array_api_compat\common\__init__.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\scipy\\_lib\\array_api_compat\\common\\__pycache__\\__init__.cpython-313.pyc'
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\scipy\_lib\array_api_compat\common\__pycache__\_helpers.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\scipy\_lib\array_api_compat\common\_helpers.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\scipy\\_lib\\array_api_compat\\common\\__pycache__\\_helpers.cpython-313.pyc'
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\scipy\_lib\array_api_compat\common\__pycache__\_typing.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\scipy\_lib\array_api_compat\common\_typing.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\scipy\\_lib\\array_api_compat\\common\\__pycache__\\_typing.cpython-313.pyc'
+import 'scipy._lib.array_api_compat.common._typing' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FE61E510>
+import 'scipy._lib.array_api_compat.common._helpers' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FE61E8D0>
+import 'scipy._lib.array_api_compat.common' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FE61E210>
+import 'scipy._lib.array_api_compat' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FE61DAF0>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\scipy\_lib\array_api_compat\numpy\__pycache__\__init__.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\scipy\_lib\array_api_compat\numpy\__init__.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\scipy\\_lib\\array_api_compat\\numpy\\__pycache__\\__init__.cpython-313.pyc'
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\scipy\_lib\array_api_compat\__pycache__\_internal.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\scipy\_lib\array_api_compat\_internal.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\scipy\\_lib\\array_api_compat\\__pycache__\\_internal.cpython-313.pyc'
+import 'scipy._lib.array_api_compat._internal' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FE61E390>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\polynomial\__pycache__\__init__.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\polynomial\__init__.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\polynomial\\__pycache__\\__init__.cpython-313.pyc'
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\polynomial\__pycache__\chebyshev.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\polynomial\chebyshev.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\polynomial\\__pycache__\\chebyshev.cpython-313.pyc'
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\polynomial\__pycache__\polyutils.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\polynomial\polyutils.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\polynomial\\__pycache__\\polyutils.cpython-313.pyc'
+import 'numpy.polynomial.polyutils' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FE61F6B0>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\polynomial\__pycache__\_polybase.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\polynomial\_polybase.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\polynomial\\__pycache__\\_polybase.cpython-313.pyc'
+import 'numpy.polynomial._polybase' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FE61FE90>
+import 'numpy.polynomial.chebyshev' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FE61F4D0>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\polynomial\__pycache__\hermite.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\polynomial\hermite.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\polynomial\\__pycache__\\hermite.cpython-313.pyc'
+import 'numpy.polynomial.hermite' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FE684B30>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\polynomial\__pycache__\hermite_e.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\polynomial\hermite_e.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\polynomial\\__pycache__\\hermite_e.cpython-313.pyc'
+import 'numpy.polynomial.hermite_e' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FE6850D0>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\polynomial\__pycache__\laguerre.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\polynomial\laguerre.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\polynomial\\__pycache__\\laguerre.cpython-313.pyc'
+import 'numpy.polynomial.laguerre' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FE6858B0>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\polynomial\__pycache__\legendre.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\polynomial\legendre.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\polynomial\\__pycache__\\legendre.cpython-313.pyc'
+import 'numpy.polynomial.legendre' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FE6860F0>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\polynomial\__pycache__\polynomial.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\polynomial\polynomial.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\polynomial\\__pycache__\\polynomial.cpython-313.pyc'
+import 'numpy.polynomial.polynomial' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FE6868D0>
+import 'numpy.polynomial' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FE61F350>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\char\__pycache__\__init__.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\char\__init__.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\char\\__pycache__\\__init__.cpython-313.pyc'
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\_core\__pycache__\defchararray.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\_core\defchararray.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\_core\\__pycache__\\defchararray.cpython-313.pyc'
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\_core\__pycache__\strings.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\_core\strings.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\_core\\__pycache__\\strings.cpython-313.pyc'
+import 'numpy._core.strings' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FE687170>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\strings\__pycache__\__init__.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\strings\__init__.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\strings\\__pycache__\\__init__.cpython-313.pyc'
+import 'numpy.strings' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FE687770>
+import 'numpy._core.defchararray' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FE6870B0>
+import 'numpy.char' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FE61F410>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\ctypeslib\__pycache__\__init__.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\ctypeslib\__init__.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\ctypeslib\\__pycache__\\__init__.cpython-313.pyc'
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\ctypeslib\__pycache__\_ctypeslib.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\ctypeslib\_ctypeslib.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\ctypeslib\\__pycache__\\_ctypeslib.cpython-313.pyc'
+import 'numpy.ctypeslib._ctypeslib' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FE6877D0>
+import 'numpy.ctypeslib' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FE61F470>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\ma\__pycache__\__init__.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\ma\__init__.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\ma\\__pycache__\\__init__.cpython-313.pyc'
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\ma\__pycache__\core.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\ma\core.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\ma\\__pycache__\\core.cpython-313.pyc'
+import 'numpy.ma.core' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FE687FB0>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\ma\__pycache__\extras.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\ma\extras.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\ma\\__pycache__\\extras.cpython-313.pyc'
+import 'numpy.ma.extras' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FE6DFD70>
+import 'numpy.ma' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FE687110>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\testing\__pycache__\__init__.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\testing\__init__.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\testing\\__pycache__\\__init__.cpython-313.pyc'
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\unittest\__pycache__\__init__.cpython-313.pyc matches C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\unittest\__init__.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\unittest\\__pycache__\\__init__.cpython-313.pyc'
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\unittest\__pycache__\result.cpython-313.pyc matches C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\unittest\result.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\unittest\\__pycache__\\result.cpython-313.pyc'
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\unittest\__pycache__\util.cpython-313.pyc matches C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\unittest\util.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\unittest\\__pycache__\\util.cpython-313.pyc'
+import 'unittest.util' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FE729A30>
+import 'unittest.result' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FE729190>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\unittest\__pycache__\case.cpython-313.pyc matches C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\unittest\case.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\unittest\\__pycache__\\case.cpython-313.pyc'
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\__pycache__\difflib.cpython-313.pyc matches C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\difflib.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\__pycache__\\difflib.cpython-313.pyc'
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\__pycache__\heapq.cpython-313.pyc matches C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\heapq.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\__pycache__\\heapq.cpython-313.pyc'
+import '_heapq' # <class '_frozen_importlib.BuiltinImporter'>
+import 'heapq' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FEF805F0>
+import 'difflib' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FE72A1B0>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\__pycache__\pprint.cpython-313.pyc matches C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\pprint.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\__pycache__\\pprint.cpython-313.pyc'
+import 'pprint' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FEF803B0>
+import 'unittest.case' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FE729DF0>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\unittest\__pycache__\suite.cpython-313.pyc matches C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\unittest\suite.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\unittest\\__pycache__\\suite.cpython-313.pyc'
+import 'unittest.suite' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FE72BFB0>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\unittest\__pycache__\loader.cpython-313.pyc matches C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\unittest\loader.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\unittest\\__pycache__\\loader.cpython-313.pyc'
+import 'unittest.loader' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FEF81910>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\unittest\__pycache__\main.cpython-313.pyc matches C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\unittest\main.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\unittest\\__pycache__\\main.cpython-313.pyc'
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\__pycache__\argparse.cpython-313.pyc matches C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\argparse.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\__pycache__\\argparse.cpython-313.pyc'
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\__pycache__\gettext.cpython-313.pyc matches C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\gettext.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\__pycache__\\gettext.cpython-313.pyc'
+import 'gettext' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FEF82510>
+import 'argparse' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FEF82030>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\unittest\__pycache__\runner.cpython-313.pyc matches C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\unittest\runner.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\unittest\\__pycache__\\runner.cpython-313.pyc'
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\unittest\__pycache__\signals.cpython-313.pyc matches C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\unittest\signals.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\unittest\\__pycache__\\signals.cpython-313.pyc'
+import 'unittest.signals' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FEFD01D0>
+import 'unittest.runner' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FEF82E70>
+import 'unittest.main' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FEF81190>
+import 'unittest' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FE728F50>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\testing\_private\__pycache__\__init__.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\testing\_private\__init__.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\testing\\_private\\__pycache__\\__init__.cpython-313.pyc'
+import 'numpy.testing._private' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FE7283B0>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\testing\__pycache__\overrides.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\testing\overrides.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\testing\\__pycache__\\overrides.cpython-313.pyc'
+import 'numpy.testing.overrides' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FEF81FD0>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\testing\_private\__pycache__\extbuild.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\testing\_private\extbuild.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\testing\\_private\\__pycache__\\extbuild.cpython-313.pyc'
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\pathlib\__pycache__\__init__.cpython-313.pyc matches C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\pathlib\__init__.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\pathlib\\__pycache__\\__init__.cpython-313.pyc'
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\pathlib\__pycache__\_abc.cpython-313.pyc matches C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\pathlib\_abc.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\pathlib\\__pycache__\\_abc.cpython-313.pyc'
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\__pycache__\glob.cpython-313.pyc matches C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\glob.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\__pycache__\\glob.cpython-313.pyc'
+import 'glob' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FEFD1A30>
+import 'pathlib._abc' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FEFD1B50>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\pathlib\__pycache__\_local.cpython-313.pyc matches C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\pathlib\_local.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\pathlib\\__pycache__\\_local.cpython-313.pyc'
+import 'pathlib._local' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FEFD28D0>
+import 'pathlib' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FEFD17F0>
+import 'numpy.testing._private.extbuild' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FEF83DD0>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\testing\_private\__pycache__\utils.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\site-packages\numpy\testing\_private\utils.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\numpy\\testing\\_private\\__pycache__\\utils.cpython-313.pyc'
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\concurrent\__pycache__\__init__.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\concurrent\__init__.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\concurrent\\__pycache__\\__init__.cpython-313.pyc'
+import 'concurrent' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FF01C290>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\concurrent\futures\__pycache__\__init__.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\concurrent\futures\__init__.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\concurrent\\futures\\__pycache__\\__init__.cpython-313.pyc'
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\concurrent\futures\__pycache__\_base.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\concurrent\futures\_base.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\concurrent\\futures\\__pycache__\\_base.cpython-313.pyc'
+import 'concurrent.futures._base' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FF01D190>
+import 'concurrent.futures' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FF01C230>
+import 'gc' # <class '_frozen_importlib.BuiltinImporter'>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\importlib\metadata\__pycache__\__init__.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\importlib\metadata\__init__.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\importlib\\metadata\\__pycache__\\__init__.cpython-313.pyc'
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\json\__pycache__\__init__.cpython-313.pyc matches C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\json\__init__.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\json\\__pycache__\\__init__.cpython-313.pyc'
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\json\__pycache__\decoder.cpython-313.pyc matches C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\json\decoder.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\json\\__pycache__\\decoder.cpython-313.pyc'
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\json\__pycache__\scanner.cpython-313.pyc matches C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\json\scanner.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\json\\__pycache__\\scanner.cpython-313.pyc'
+import '_json' # <class '_frozen_importlib.BuiltinImporter'>
+import 'json.scanner' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FF01FE30>
+import 'json.decoder' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FF01EC30>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\json\__pycache__\encoder.cpython-313.pyc matches C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\json\encoder.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\json\\__pycache__\\encoder.cpython-313.pyc'
+import 'json.encoder' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FF01FD70>
+import 'json' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FF01D970>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\email\__pycache__\__init__.cpython-313.pyc matches C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\email\__init__.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\email\\__pycache__\\__init__.cpython-313.pyc'
+import 'email' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FF01FDD0>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\zipfile\__pycache__\__init__.cpython-313.pyc matches C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\zipfile\__init__.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\zipfile\\__pycache__\\__init__.cpython-313.pyc'
+import 'binascii' # <class '_frozen_importlib.BuiltinImporter'>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\zipfile\_path\__pycache__\__init__.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\zipfile\_path\__init__.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\zipfile\\_path\\__pycache__\\__init__.cpython-313.pyc'
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\zipfile\_path\__pycache__\glob.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\zipfile\_path\glob.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\zipfile\\_path\\__pycache__\\glob.cpython-313.pyc'
+import 'zipfile._path.glob' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FF082450>
+import 'zipfile._path' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FF081AF0>
+import 'zipfile' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FF01FFB0>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\importlib\metadata\__pycache__\_meta.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\importlib\metadata\_meta.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\importlib\\metadata\\__pycache__\\_meta.cpython-313.pyc'
+import 'importlib.metadata._meta' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FF0823F0>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\importlib\metadata\__pycache__\_collections.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\importlib\metadata\_collections.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\importlib\\metadata\\__pycache__\\_collections.cpython-313.pyc'
+import 'importlib.metadata._collections' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FF082D50>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\importlib\metadata\__pycache__\_functools.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\importlib\metadata\_functools.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\importlib\\metadata\\__pycache__\\_functools.cpython-313.pyc'
+import 'importlib.metadata._functools' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FF083350>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\importlib\metadata\__pycache__\_itertools.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\importlib\metadata\_itertools.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\importlib\\metadata\\__pycache__\\_itertools.cpython-313.pyc'
+import 'importlib.metadata._itertools' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FF083470>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\importlib\__pycache__\abc.cpython-313.pyc matches C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\importlib\abc.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\importlib\\__pycache__\\abc.cpython-313.pyc'
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\importlib\resources\__pycache__\__init__.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\importlib\resources\__init__.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\importlib\\resources\\__pycache__\\__init__.cpython-313.pyc'
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\importlib\resources\__pycache__\_common.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\importlib\resources\_common.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\importlib\\resources\\__pycache__\\_common.cpython-313.pyc'
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\__pycache__\tempfile.cpython-313.pyc matches C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\tempfile.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\__pycache__\\tempfile.cpython-313.pyc'
+import 'tempfile' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FF083EF0>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\importlib\resources\__pycache__\abc.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\importlib\resources\abc.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\importlib\\resources\\__pycache__\\abc.cpython-313.pyc'
+import 'importlib.resources.abc' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FF0D8830>
+import 'importlib.resources._common' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FF083AD0>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\importlib\resources\__pycache__\_functional.cpython-313.pyc matches 
+C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\importlib\resources\_functional.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\importlib\\resources\\__pycache__\\_functional.cpython-313.pyc'
+import 'importlib.resources._functional' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FF0D84D0>
+import 'importlib.resources' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FF083950>
+import 'importlib.abc' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FF083530>
+import 'importlib.metadata' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FF01C8F0>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\__pycache__\socket.cpython-313.pyc matches C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\socket.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\__pycache__\\socket.cpython-313.pyc'
+# extension module '_socket' loaded from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_socket.pyd'
+# extension module '_socket' executed from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\_socket.pyd'
+import '_socket' # <_frozen_importlib_external.ExtensionFileLoader object at 0x00000190FF070050>
+# C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\__pycache__\selectors.cpython-313.pyc matches C:\Users\nitta\AppData\Local\Programs\Python\Python313\Lib\selectors.py
+# code object from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\__pycache__\\selectors.cpython-313.pyc'
+# extension module 'select' loaded from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\select.pyd'
+# extension module 'select' executed from 'C:\\Users\\nitta\\AppData\\Local\\Programs\\Python\\Python313\\DLLs\\select.pyd'
+import 'select' # <_frozen_importlib_external.ExtensionFileLoader object at 0x00000190FF099B80>
+import 'selectors' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FF0DA1B0>
+import 'socket' # <_frozen_importlib_external.SourceFileLoader object at 0x00000190FF0D95B0>
